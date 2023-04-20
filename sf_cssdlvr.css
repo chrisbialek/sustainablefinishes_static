@@ -1,3 +1,15 @@
-.active {
-  changethis: tothis;
+<style>
+body { 
+  min-height: 0vw;
+  font-size: calc(0.4934210526315789vw + 0.506578947368421em);
 }
+
+/* Min Font Size */
+@media screen and (max-width:991px) {
+ body { font-size: 1em; }
+}
+.container {
+  max-width: 100em;
+}
+
+</style>
